@@ -6,7 +6,7 @@
     <title>Contador</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="carregar()">
     <header>
         <h1>Vamos Contar</h1>
     </header>
@@ -16,9 +16,9 @@
             <p>Fim: <input type="number" name="fim" id="txtfim"></p>
             <p> Passo: <input type="number" name="passo" id="txtpasso"></p>
 
-            <p><input type="button" value="Contar" onclick="clicar()"></p>
+            <p><input type="button" value="Contar" onclick="contar()"></p>
         </div>
-        <div>
+        <div id = 'res'>
             Preparando contagem...
         </div>
     </section>
