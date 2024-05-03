@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo</title>
+    <title>Contador</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Vamos Contar</h1>
     </header>
     <section>
         <div>
-            Testando
+            <p>Início: <input type="number" name="inicio" id="txtinicio"></p>
+            <p>Fim: <input type="number" name="fim" id="txtfim"></p>
+            <p> Passo: <input type="number" name="passo" id="txtpasso"></p>
+
+            <p><input type="button" value="Contar" onclick="clicar()"></p>
         </div>
         <div>
-            Olá
+            Preparando contagem...
         </div>
     </section>
     <footer>
         <p>&copy;CursoemVideo</p>
     </footer>
-    <script src="teste.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
